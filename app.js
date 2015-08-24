@@ -139,7 +139,7 @@ var svg = d3.select("body").append("svg")
 
 
 }
-
+// Use the score multipliers to get actual scores 
 function processActualScores(type){
 	var goal = 0; 
 	var assist = 0; 
